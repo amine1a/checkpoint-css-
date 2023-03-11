@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}    
+
+header nav img {
+    width: 25%;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: -2px 4px 5px rgb(0 0 0 / 15%);
+    padding: 1%;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+header nav div a {
+    text-decoration: none;
+    margin-left: 4px;
+    color: rgb(194, 194, 194);
+}
+
+header nav div a:hover{
+    color: #00b39b;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 8%;
+}
+
+h1 {
+    text-align: center;
+    color: #00b39b;
+    font-weight: normal;
+    margin-top: 1.5%;
+
+}
+
+::selection {
+    color: white;
+    background: #00b39b;
+}
+.discription {
+    color: #000e0c;
+    width: 35%;
+}
+
+.p-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    font-size: 1.1rem;
+}
+
+.contry-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.sevices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3%;
+    font-size: 1.2rem; 
+    cursor: pointer;
+}
+
+.service-card {
+    padding: 20px;
+    border-radius: 9px;
+    color: white;
+    margin: 10px;
+    height: 60%;
+    width: 10%;
+
+}
+
+.service-card-patients {
+    background-color: #00ccb1;
+}
+
+.service-card-doctors {
+    background-color: #3d83df;
+}
+
+.service2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3%;
+    font-size: 1.2rem; 
+    height: 60%;
+    width: 115%;
+    cursor: pointer;
+}
+
+
+.service-card-clinics {
+    background-color: #1b2734;
+}
+
+.znanylekarz {
+    margin-left: 50%;
+    width: 10%;
+}
+
+.doctoralia {
+    margin-left: 50%;
+    width: 10%;
+}
+.miodottore {
+    margin-left: 50%;
+    width: 10%;
+}
+.doktortakvimi {
+    margin-left: 50%;
+    width: 10%;
+}
+
+.znamylekar {
+    margin-left: 50%;
+    width: 10%;
+}
+.jameda {
+    margin-left: 50%;
+    width: 10%;
+}
+.tuotempo {
+    margin-left: 50%;
+    width: 10%;
+}
+
+.gipo {
+    margin-left: 50%;
+    width: 3%;
+}
+
+.clinic-cloud {
+    margin-left: 50%;
+    width: 3%;
+}
+.feegowclinic {
+    margin-left: 50%;
+    width: 10%;
+}
+
+.opinion2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 25%;
+}
+.opinion {
+    display: flex;
+    align-items: normal;
+    justify-content: space-between;
+}
+button {
+    color: white;
+    background-color: #3d83df;
+    padding: 0.8%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b63c2;
+}
+
+.aligne-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.contry-card {
+    width: 20.5%;
+    margin: 3%;
+    margin-bottom: 3%;
+}
+.contry-card:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 gray
+}
+.yasin-container {
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;  
+    flex-wrap: wrap;
+}
+.yassin {
+    width: 20.5%;
+    margin: 3%;
+    margin-bottom: 3%;
+}
+#yassin {
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;  
+    flex-wrap: wrap;
+}
+#yassin{
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 0.75em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aligne-button-last{
+    margin-left: 45%;
+    margin-bottom: 3%;
+
+}
+.main-footer{
+
+  border-top: 1px solid #eef2f2;
+        text-align: center;
+   padding: 1em 0;
+
+}
+.parafooter{
+    margin: 1.6em 0;
+    font-size: 12px;
+    color: #ababab;
+}
